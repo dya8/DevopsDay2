@@ -16,7 +16,7 @@ pipeline
         {
             echo 'Checking code quality.'
             bat '''
-            findstr GOOD quality.txt >nul
+            findstr GOOD quality.txt > nul
             if errorlevel1
             (
             echo Code Quality Failed
